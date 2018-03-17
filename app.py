@@ -6,10 +6,8 @@ import bottle
 import os
 from bottle import get, run, route, template, static_file, request, response
 from os import environ
-from dao import get_dao
 
 application = bottle.app()
-dao = get_dao('production')
 
 @route('/assets/<filepath:path>')
 def server_static(filepath):
