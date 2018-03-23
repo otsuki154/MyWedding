@@ -6,7 +6,7 @@
 	<meta name="description" content="5/5/2018, 20/3 Âm lịch" />
 	
 	<link rel="stylesheet" type="text/css" href="engine/css/style.css" />
-<!-- 	 <script type="text/javascript" src="engine/js/jquery.js"></script>  -->
+ 	 <script type="text/javascript" src="engine/js/script.js"></script>  
 
 
 </head>
@@ -46,8 +46,23 @@
   <source src="./data/music/movie2.mp4" type="video/mp4">
   <source src="./data/music/movie2.ogg" type="video/ogg">
 </video> -->
-  <div class="videoContainer">
+
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div id="main">
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776</span>
+    <div class="videoContainer">
     <iframe class="videoContainer__video" width="1920" height="1080" src="https://www.youtube.com/embed/g31PwJ2EKD0?modestbranding=1&autoplay=1&controls=0&fs=0&loop=1&rel=0&showinfo=0&disablekb=1" frameborder="0"></iframe>
+	</div>
 </div>
 
 </body>
