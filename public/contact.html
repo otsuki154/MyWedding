@@ -193,16 +193,6 @@
 
 	<div id="map" class="fh5co-map"></div>
 		<!-- END map -->
-<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
-<div style='overflow:hidden;height:440px;width:700px;'>
-	<div id='gmap_canvas' style='height:440px;width:700px;'></div>
-	<div>
-		<small><a href="embedgooglemaps.com/">https://embedgooglemaps.com/en/</a></small>
-	</div>
-	<div>
-		<small><a href=""></a></small>
-	</div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
-	<script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(15.843826,108.08950660000005),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(15.843826,108.08950660000005)});infowindow = new google.maps.InfoWindow({content:'<strong>Nhà Văn Hóa</strong><br>Đại Cường, Đại Lộc, Quảng Nam, Việt Nam<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 
 	<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
@@ -249,7 +239,8 @@
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
 	<!-- Google Map -->
-	<script src="https://www.google.co.jp/maps/@15.8529277,108.0941424,16.99z"></script>
+		<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<script src="js/google_map.js"></script>
 
 	<!-- Main -->
