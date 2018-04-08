@@ -1846,4 +1846,17 @@ form label {
   opacity: 0;
 }
 
+.videoContainer {
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  top: 200px;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /*# sourceMappingURL=style.css.map */
