@@ -675,7 +675,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-gallery-list li a {
-  min-height: 400px;
+  min-height: 800px;
   padding: 2em;
   position: relative;
   width: 100%;
@@ -1848,14 +1848,18 @@ form label {
 
 .videoContainer {
   position: absolute;
-  width: 80%;
-  height: 90%;
-  top: 200px;
-  left: 10%;
+  width: 100%;
+  height: 430px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+iframe {
+  /* optional */
+  width: 100%;
+  height: 100%; 
 }
 
 
